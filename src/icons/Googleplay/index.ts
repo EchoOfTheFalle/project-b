@@ -1,0 +1,1 @@
+export { Googleplay } from "./Googleplay";

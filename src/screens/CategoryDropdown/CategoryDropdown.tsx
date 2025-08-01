@@ -1,0 +1,587 @@
+import React from "react";
+import { Button } from "../../components/Button";
+import { Cart } from "../../components/Cart";
+import { CartWithFlat } from "../../components/CartWithFlat";
+import { CategoryPhone } from "../../components/CategoryPhone";
+import { CategoryRectangle } from "../../components/CategoryRectangle";
+import { FillEye } from "../../components/FillEye";
+import { FillHeart } from "../../components/FillHeart";
+import { FillWithLeftArrow } from "../../components/FillWithLeftArrow";
+import { FillWithRight } from "../../components/FillWithRight";
+import { FillWithUpArrow } from "../../components/FillWithUpArrow";
+import { FlashSellTimer } from "../../components/FlashSellTimer";
+import { Footer } from "../../components/Footer";
+import { FullServices } from "../../components/FullServices";
+import { HeaderWrapper } from "../../components/HeaderWrapper";
+import { Line } from "../../components/Line";
+import { TopHeader } from "../../components/TopHeader";
+import { CategoryCamera1 } from "../../icons/CategoryCamera1";
+import { CategoryCellphone } from "../../icons/CategoryCellphone";
+import { CategoryComputer1 } from "../../icons/CategoryComputer1";
+import { CategoryGamepad2 } from "../../icons/CategoryGamepad2";
+import { CategoryHeadphone1 } from "../../icons/CategoryHeadphone1";
+import { CategorySmartwatch3 } from "../../icons/CategorySmartwatch3";
+import { Dropdown1 } from "../../icons/Dropdown1";
+import { FiveStar7 } from "../../icons/FiveStar7";
+import { Googleplay } from "../../icons/Googleplay";
+import { IconCustomerService1 } from "../../icons/IconCustomerService1";
+import { IconsArrowRight4 } from "../../icons/IconsArrowRight4";
+
+export const CategoryDropdown = (): JSX.Element => {
+  return (
+    <div className="bg-white flex flex-row justify-center w-full">
+      <div className="bg-bg overflow-hidden w-[1440px] h-[5902px] relative">
+        <img className="absolute w-[1170px] h-px top-[1335px] left-[135px]" alt="Line" src="/img/line-7.svg" />
+        <img className="absolute w-[1170px] h-px top-[1798px] left-[135px]" alt="Line" src="/img/line-7.svg" />
+        <div className="absolute w-[1440px] h-[384px] top-[142px] left-0">
+          <div className="absolute w-[1440px] h-[384px] top-0 left-0">
+            <img className="absolute w-px h-[384px] top-0 left-[368px]" alt="Line" src="/img/line-4.svg" />
+            <Line className="!absolute !left-0 !top-0" />
+          </div>
+          <div className="inline-flex flex-col items-start gap-[16px] absolute top-[40px] left-[135px]">
+            <div className="inline-flex items-start gap-[51px] relative flex-[0_0_auto]">
+              <div className="relative w-fit mt-[-1.00px] font-title-16px-regular font-[number:var(--title-16px-regular-font-weight)] text-text-2 text-[length:var(--title-16px-regular-font-size)] text-center tracking-[var(--title-16px-regular-letter-spacing)] leading-[var(--title-16px-regular-line-height)] whitespace-nowrap [font-style:var(--title-16px-regular-font-style)]">
+                Woman’s Fashion
+              </div>
+              <Dropdown1 className="!relative !w-[24px] !h-[24px]" />
+            </div>
+            <div className="inline-flex items-start gap-[81px] relative flex-[0_0_auto]">
+              <div className="relative w-fit mt-[-1.00px] font-title-16px-regular font-[number:var(--title-16px-regular-font-weight)] text-text-2 text-[length:var(--title-16px-regular-font-size)] text-center tracking-[var(--title-16px-regular-letter-spacing)] leading-[var(--title-16px-regular-line-height)] whitespace-nowrap [font-style:var(--title-16px-regular-font-style)]">
+                Men’s Fashion
+              </div>
+              <Dropdown1 className="!relative !w-[24px] !h-[24px]" />
+            </div>
+            <div className="relative w-fit font-title-16px-regular font-[number:var(--title-16px-regular-font-weight)] text-text-2 text-[length:var(--title-16px-regular-font-size)] text-center tracking-[var(--title-16px-regular-letter-spacing)] leading-[var(--title-16px-regular-line-height)] whitespace-nowrap [font-style:var(--title-16px-regular-font-style)]">
+              Electronics
+            </div>
+            <div className="relative w-fit font-title-16px-regular font-[number:var(--title-16px-regular-font-weight)] text-text-2 text-[length:var(--title-16px-regular-font-size)] text-center tracking-[var(--title-16px-regular-letter-spacing)] leading-[var(--title-16px-regular-line-height)] whitespace-nowrap [font-style:var(--title-16px-regular-font-style)]">
+              Home &amp; Lifestyle
+            </div>
+            <div className="relative w-fit font-title-16px-regular font-[number:var(--title-16px-regular-font-weight)] text-text-2 text-[length:var(--title-16px-regular-font-size)] text-center tracking-[var(--title-16px-regular-letter-spacing)] leading-[var(--title-16px-regular-line-height)] whitespace-nowrap [font-style:var(--title-16px-regular-font-style)]">
+              Medicine
+            </div>
+            <div className="relative w-fit font-title-16px-regular font-[number:var(--title-16px-regular-font-weight)] text-text-2 text-[length:var(--title-16px-regular-font-size)] text-center tracking-[var(--title-16px-regular-letter-spacing)] leading-[var(--title-16px-regular-line-height)] whitespace-nowrap [font-style:var(--title-16px-regular-font-style)]">
+              Sports &amp; Outdoor
+            </div>
+            <div className="relative w-fit font-title-16px-regular font-[number:var(--title-16px-regular-font-weight)] text-text-2 text-[length:var(--title-16px-regular-font-size)] text-center tracking-[var(--title-16px-regular-letter-spacing)] leading-[var(--title-16px-regular-line-height)] whitespace-nowrap [font-style:var(--title-16px-regular-font-style)]">
+              Baby’s &amp; Toys
+            </div>
+            <div className="relative w-fit font-title-16px-regular font-[number:var(--title-16px-regular-font-weight)] text-text-2 text-[length:var(--title-16px-regular-font-size)] text-center tracking-[var(--title-16px-regular-letter-spacing)] leading-[var(--title-16px-regular-line-height)] whitespace-nowrap [font-style:var(--title-16px-regular-font-style)]">
+              Groceries &amp; Pets
+            </div>
+            <div className="relative w-fit font-title-16px-regular font-[number:var(--title-16px-regular-font-weight)] text-text-2 text-[length:var(--title-16px-regular-font-size)] text-center tracking-[var(--title-16px-regular-letter-spacing)] leading-[var(--title-16px-regular-line-height)] whitespace-nowrap [font-style:var(--title-16px-regular-font-style)]">
+              Health &amp; Beauty
+            </div>
+          </div>
+          <div className="absolute w-[892px] h-[344px] top-[40px] left-[413px] bg-text-2">
+            <div className="relative w-[828px] h-[328px] top-[16px] left-[64px]">
+              <div className="absolute w-[828px] h-[328px] top-0 left-0">
+                <div className="absolute w-[539px] h-[328px] top-0 left-[289px]">
+                  <img
+                    className="absolute w-[496px] h-[328px] top-0 left-[43px] object-cover"
+                    alt="Hero endframe"
+                    src="/img/hero-endframe-cvklg0xk3w6e-large-2.png"
+                  />
+                  <div className="absolute w-[10px] h-[10px] top-[305px] left-[48px] bg-secondary-2 rounded-[5px]" />
+                  <div className="inline-flex items-center justify-center gap-[11px] absolute top-[303px] left-0">
+                    <div className="relative w-[12px] h-[12px] bg-primary rounded-[6px] opacity-50" />
+                    <div className="relative w-[12px] h-[12px] bg-primary rounded-[6px] opacity-50" />
+                    <div className="relative w-[14px] h-[14px] rounded-[7px] border-2 border-solid border-primary" />
+                    <div className="relative w-[12px] h-[12px] bg-primary rounded-[6px] opacity-50" />
+                    <div className="relative w-[12px] h-[12px] bg-primary rounded-[6px] opacity-50" />
+                  </div>
+                </div>
+                <p className="absolute w-[294px] top-[110px] left-0 font-heading-48px-semibold font-[number:var(--heading-48px-semibold-font-weight)] text-text text-[length:var(--heading-48px-semibold-font-size)] tracking-[var(--heading-48px-semibold-letter-spacing)] leading-[var(--heading-48px-semibold-line-height)] [font-style:var(--heading-48px-semibold-font-style)]">
+                  Up to 10% off Voucher
+                </p>
+              </div>
+              <div className="inline-flex items-center gap-[24px] absolute top-[42px] left-0">
+                <img
+                  className="relative w-[40px] h-[49px]"
+                  alt="Element apple gray"
+                  src="/img/1200px-apple-gray-logo-1.png"
+                />
+                <div className="relative w-[126px] h-[20px] font-title-16px-regular font-[number:var(--title-16px-regular-font-weight)] text-text text-[length:var(--title-16px-regular-font-size)] text-center tracking-[var(--title-16px-regular-letter-spacing)] leading-[var(--title-16px-regular-line-height)] whitespace-nowrap [font-style:var(--title-16px-regular-font-style)]">
+                  iPhone 14 Series
+                </div>
+              </div>
+              <div className="inline-flex items-center gap-[8px] absolute top-[253px] left-[3px]">
+                <div className="inline-flex flex-col items-start gap-[4px] relative flex-[0_0_auto]">
+                  <div className="font-[number:var(--title-16px-medium-font-weight)] text-[length:var(--title-16px-medium-font-size)] relative w-fit mt-[-1.00px] font-title-16px-medium text-text text-center tracking-[var(--title-16px-medium-letter-spacing)] leading-[var(--title-16px-medium-line-height)] whitespace-nowrap [font-style:var(--title-16px-medium-font-style)]">
+                    Shop Now
+                  </div>
+                  <img className="relative w-[81px] h-px object-cover" alt="Line" src="/img/line-5.svg" />
+                </div>
+                <IconsArrowRight4 className="!relative !w-[24px] !h-[24px]" color="#FAFAFA" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <Button button="primary" className="!absolute !left-[603px] !top-[1219px]" hover={false} />
+        <div className="absolute w-[1170px] h-[500px] top-[2526px] left-[135px] bg-button">
+          <div className="absolute w-[600px] h-[500px] top-0 left-[526px]">
+            <div className="absolute w-[504px] h-[500px] top-0 left-[26px] bg-[#d9d9d9] rounded-[252px/250px] blur-[200px] opacity-30" />
+            <div className="absolute w-[600px] h-[420px] top-[37px] left-0">
+              <img
+                className="absolute w-[568px] h-[330px] top-[45px] left-[16px]"
+                alt="Jbl BOOMBOX HERO"
+                src="/img/jbl-boombox-2-hero-020-x1-1-1.png"
+              />
+            </div>
+          </div>
+          <div className="absolute w-[443px] top-[120px] left-[56px] font-heading-48px-semibold font-[number:var(--heading-48px-semibold-font-weight)] text-text text-[length:var(--heading-48px-semibold-font-size)] tracking-[var(--heading-48px-semibold-letter-spacing)] leading-[var(--heading-48px-semibold-line-height)] [font-style:var(--heading-48px-semibold-font-style)]">
+            Enhance Your Music Experience
+          </div>
+          <div className="inline-flex items-start gap-[24px] absolute top-[273px] left-[56px]">
+            <FlashSellTimer
+              className="!relative !bg-primary"
+              divClassName="!text-text-2"
+              divClassNameOverride="!text-text-2"
+              flashSaleOffer="hours"
+            />
+            <FlashSellTimer
+              className="!relative !bg-primary"
+              divClassName="!text-text-2"
+              divClassNameOverride="!text-text-2"
+              flashSaleOffer="days-fill"
+            />
+            <FlashSellTimer
+              className="!relative !bg-primary"
+              divClassName="!text-text-2"
+              divClassNameOverride="!text-text-2"
+              flashSaleOffer="minutes"
+            />
+            <FlashSellTimer
+              className="!relative !bg-primary"
+              divClassName="!text-text-2"
+              divClassNameOverride="!text-text-2"
+              flashSaleOffer="seconds"
+            />
+          </div>
+          <Button
+            button="primary"
+            className="!absolute !left-[56px] !bg-button-1 !top-[375px]"
+            hover={false}
+            text="Buy Now!"
+          />
+          <div className="absolute top-[68px] left-[56px] font-title-16px-semibold font-[number:var(--title-16px-semibold-font-weight)] text-button-1 text-[length:var(--title-16px-semibold-font-size)] tracking-[var(--title-16px-semibold-letter-spacing)] leading-[var(--title-16px-semibold-line-height)] whitespace-nowrap [font-style:var(--title-16px-semibold-font-style)]">
+            Categories
+          </div>
+        </div>
+        <div className="inline-flex flex-col items-start gap-[40px] absolute top-[666px] left-[135px]">
+          <div className="inline-flex items-end gap-[470px] relative flex-[0_0_auto]">
+            <div className="inline-flex items-end gap-[87px] relative flex-[0_0_auto]">
+              <div className="inline-flex flex-col h-[103px] items-start gap-[24px] relative flex-[0_0_auto]">
+                <div className="inline-flex items-center gap-[16px] relative flex-[0_0_auto]">
+                  <CategoryRectangle className="!relative" />
+                  <div className="relative w-fit font-title-16px-semibold font-[number:var(--title-16px-semibold-font-weight)] text-secondary-2 text-[length:var(--title-16px-semibold-font-size)] tracking-[var(--title-16px-semibold-letter-spacing)] leading-[var(--title-16px-semibold-line-height)] whitespace-nowrap [font-style:var(--title-16px-semibold-font-style)]">
+                    Today’s
+                  </div>
+                </div>
+                <div className="relative w-fit mb-[-8.00px] font-heading-36px-semibold font-[number:var(--heading-36px-semibold-font-weight)] text-text-2 text-[length:var(--heading-36px-semibold-font-size)] tracking-[var(--heading-36px-semibold-letter-spacing)] leading-[var(--heading-36px-semibold-line-height)] whitespace-nowrap [font-style:var(--heading-36px-semibold-font-style)]">
+                  Flash Sales
+                </div>
+              </div>
+              <div className="relative w-[302px] h-[50px]">
+                <div className="inline-flex flex-col h-[50px] items-start gap-[4px] absolute top-0 left-0">
+                  <div className="relative w-[31px] mt-[-1.00px] font-title-12px-medium font-[number:var(--title-12px-medium-font-weight)] text-text-2 text-[length:var(--title-12px-medium-font-size)] tracking-[var(--title-12px-medium-letter-spacing)] leading-[var(--title-12px-medium-line-height)] [font-style:var(--title-12px-medium-font-style)]">
+                    Days
+                  </div>
+                  <div className="w-[46px] h-[28px] relative font-heading-32px-bold font-[number:var(--heading-32px-bold-font-weight)] text-text-2 text-[length:var(--heading-32px-bold-font-size)] tracking-[var(--heading-32px-bold-letter-spacing)] leading-[var(--heading-32px-bold-line-height)] whitespace-nowrap [font-style:var(--heading-32px-bold-font-style)]">
+                    03
+                  </div>
+                </div>
+                <div className="flex flex-col w-[42px] h-[50px] items-start gap-[4px] absolute top-0 left-[84px]">
+                  <div className="relative w-[35px] mt-[-1.00px] font-title-12px-medium font-[number:var(--title-12px-medium-font-weight)] text-text-2 text-[length:var(--title-12px-medium-font-size)] tracking-[var(--title-12px-medium-letter-spacing)] leading-[var(--title-12px-medium-line-height)] [font-style:var(--title-12px-medium-font-style)]">
+                    Hours
+                  </div>
+                  <div className="w-fit mb-[-1.00px] mr-[-1.00px] relative font-heading-32px-bold font-[number:var(--heading-32px-bold-font-weight)] text-text-2 text-[length:var(--heading-32px-bold-font-size)] tracking-[var(--heading-32px-bold-letter-spacing)] leading-[var(--heading-32px-bold-line-height)] whitespace-nowrap [font-style:var(--heading-32px-bold-font-style)]">
+                    23
+                  </div>
+                </div>
+                <div className="flex flex-col w-[49px] h-[50px] items-start gap-[4px] absolute top-0 left-[164px]">
+                  <div className="relative w-[49px] mt-[-1.00px] font-title-12px-medium font-[number:var(--title-12px-medium-font-weight)] text-text-2 text-[length:var(--title-12px-medium-font-size)] tracking-[var(--title-12px-medium-letter-spacing)] leading-[var(--title-12px-medium-line-height)] [font-style:var(--title-12px-medium-font-style)]">
+                    Minutes
+                  </div>
+                  <div className="w-[39px] h-[28px] relative font-heading-32px-bold font-[number:var(--heading-32px-bold-font-weight)] text-text-2 text-[length:var(--heading-32px-bold-font-size)] tracking-[var(--heading-32px-bold-letter-spacing)] leading-[var(--heading-32px-bold-line-height)] whitespace-nowrap [font-style:var(--heading-32px-bold-font-style)]">
+                    19
+                  </div>
+                </div>
+                <div className="flex flex-col w-[51px] h-[50px] items-start gap-[4px] absolute top-0 left-[251px]">
+                  <div className="relative w-[52px] mt-[-1.00px] mr-[-1.00px] font-title-12px-medium font-[number:var(--title-12px-medium-font-weight)] text-text-2 text-[length:var(--title-12px-medium-font-size)] tracking-[var(--title-12px-medium-letter-spacing)] leading-[var(--title-12px-medium-line-height)] [font-style:var(--title-12px-medium-font-style)]">
+                    Seconds
+                  </div>
+                  <div className="w-fit mb-[-1.00px] relative font-heading-32px-bold font-[number:var(--heading-32px-bold-font-weight)] text-text-2 text-[length:var(--heading-32px-bold-font-size)] tracking-[var(--heading-32px-bold-letter-spacing)] leading-[var(--heading-32px-bold-line-height)] whitespace-nowrap [font-style:var(--heading-32px-bold-font-style)]">
+                    56
+                  </div>
+                </div>
+                <div className="inline-flex flex-col items-start gap-[8px] absolute top-[26px] left-[63px]">
+                  <div className="relative w-[4px] h-[4px] bg-[#e07575] rounded-[2px]" />
+                  <div className="relative w-[4px] h-[4px] bg-[#e07575] rounded-[2px]" />
+                </div>
+                <div className="left-[143px] inline-flex flex-col items-start gap-[8px] absolute top-[26px]">
+                  <div className="relative w-[4px] h-[4px] bg-[#e07575] rounded-[2px]" />
+                  <div className="relative w-[4px] h-[4px] bg-[#e07575] rounded-[2px]" />
+                </div>
+                <div className="left-[230px] inline-flex flex-col items-start gap-[8px] absolute top-[26px]">
+                  <div className="relative w-[4px] h-[4px] bg-[#e07575] rounded-[2px]" />
+                  <div className="relative w-[4px] h-[4px] bg-[#e07575] rounded-[2px]" />
+                </div>
+              </div>
+            </div>
+            <div className="inline-flex items-start gap-[8px] relative flex-[0_0_auto]">
+              <FillWithLeftArrow />
+              <FillWithRight />
+            </div>
+          </div>
+          <div className="inline-flex items-start gap-[30px] relative flex-[0_0_auto]">
+            <CartWithFlat className="!flex-[0_0_auto]" property1="cart-with-discount" />
+            <CartWithFlat className="!flex-[0_0_auto]" property1="cart-with-discount-hover" />
+            <CartWithFlat className="!flex-[0_0_auto]" property1="variant-3" />
+            <CartWithFlat className="!flex-[0_0_auto]" property1="variant-4" />
+            <CartWithFlat
+              className="!flex-[0_0_auto]"
+              gXClassName="!w-[24px]"
+              property1="variant-4"
+              samMoghadamKhamseh="/img/sam-moghadam-khamseh-kvmdstrgobm-unsplash-1.png"
+            />
+          </div>
+        </div>
+        <div className="inline-flex flex-col items-start gap-[60px] absolute top-[1415px] left-[135px]">
+          <div className="inline-flex items-end gap-[691px] relative flex-[0_0_auto]">
+            <div className="inline-flex flex-col items-start gap-[20px] relative flex-[0_0_auto]">
+              <div className="inline-flex items-center gap-[16px] relative flex-[0_0_auto]">
+                <CategoryRectangle className="!relative" />
+                <div className="relative w-fit font-title-16px-semibold font-[number:var(--title-16px-semibold-font-weight)] text-secondary-2 text-[length:var(--title-16px-semibold-font-size)] tracking-[var(--title-16px-semibold-letter-spacing)] leading-[var(--title-16px-semibold-line-height)] whitespace-nowrap [font-style:var(--title-16px-semibold-font-style)]">
+                  Categories
+                </div>
+              </div>
+              <div className="relative w-fit font-heading-36px-semibold font-[number:var(--heading-36px-semibold-font-weight)] text-text-2 text-[length:var(--heading-36px-semibold-font-size)] tracking-[var(--heading-36px-semibold-letter-spacing)] leading-[var(--heading-36px-semibold-line-height)] whitespace-nowrap [font-style:var(--heading-36px-semibold-font-style)]">
+                Browse By Category
+              </div>
+            </div>
+            <div className="inline-flex items-start gap-[8px] relative flex-[0_0_auto]">
+              <FillWithLeftArrow />
+              <FillWithRight />
+            </div>
+          </div>
+          <div className="inline-flex items-start gap-[30px] relative flex-[0_0_auto]">
+            <CategoryPhone
+              categoryPhone="phone"
+              hover={false}
+              icon={<CategoryCellphone className="!absolute !w-[56px] !h-[56px] !top-[25px] !left-[57px]" />}
+            />
+            <CategoryPhone
+              categoryPhone="computer"
+              hover={false}
+              icon={
+                <CategoryComputer1 className="!absolute !w-[56px] !h-[56px] !top-[25px] !left-[58px]" color="black" />
+              }
+            />
+            <CategoryPhone
+              categoryPhone="smart-watch"
+              hover={false}
+              icon={
+                <CategorySmartwatch3 className="!absolute !w-[56px] !h-[56px] !top-[25px] !left-[57px]" color="black" />
+              }
+            />
+            <CategoryPhone
+              categoryPhone="camera"
+              hover={false}
+              icon={
+                <CategoryCamera1 className="!absolute !w-[56px] !h-[56px] !top-[25px] !left-[57px]" color="black" />
+              }
+            />
+            <CategoryPhone
+              categoryPhone="headphone"
+              hover={false}
+              icon={
+                <CategoryHeadphone1 className="!absolute !w-[56px] !h-[56px] !top-[25px] !left-[57px]" color="black" />
+              }
+            />
+            <CategoryPhone
+              categoryPhone="gaming"
+              hover={false}
+              icon={
+                <CategoryGamepad2 className="!absolute !w-[56px] !h-[56px] !top-[25px] !left-[57px]" color="black" />
+              }
+            />
+          </div>
+        </div>
+        <div className="inline-flex flex-col items-start gap-[60px] absolute top-[1868px] left-[135px]">
+          <div className="inline-flex items-end gap-[611px] relative flex-[0_0_auto]">
+            <div className="inline-flex flex-col items-start gap-[20px] relative flex-[0_0_auto]">
+              <div className="inline-flex items-center gap-[16px] relative flex-[0_0_auto]">
+                <CategoryRectangle className="!relative" />
+                <div className="relative w-fit font-title-16px-semibold font-[number:var(--title-16px-semibold-font-weight)] text-secondary-2 text-[length:var(--title-16px-semibold-font-size)] tracking-[var(--title-16px-semibold-letter-spacing)] leading-[var(--title-16px-semibold-line-height)] whitespace-nowrap [font-style:var(--title-16px-semibold-font-style)]">
+                  This Month
+                </div>
+              </div>
+              <div className="relative w-fit font-heading-36px-semibold font-[number:var(--heading-36px-semibold-font-weight)] text-text-2 text-[length:var(--heading-36px-semibold-font-size)] tracking-[var(--heading-36px-semibold-letter-spacing)] leading-[var(--heading-36px-semibold-line-height)] whitespace-nowrap [font-style:var(--heading-36px-semibold-font-style)]">
+                Best Selling Products
+              </div>
+            </div>
+            <Button button="primary" className="!flex-[0_0_auto]" hover={false} text="View All" />
+          </div>
+          <div className="inline-flex items-start gap-[30px] relative flex-[0_0_auto]">
+            <Cart className="!flex-[0_0_auto]" product="bestselling-coat" />
+            <Cart className="!flex-[0_0_auto]" product="bestselling-guccibag" />
+            <Cart className="!flex-[0_0_auto]" product="bestselling-cooling-fan" />
+            <Cart className="!flex-[0_0_auto]" product="bestselling-bookself" />
+          </div>
+        </div>
+        <div className="inline-flex flex-col items-center gap-[60px] absolute top-[3097px] left-[135px]">
+          <div className="inline-flex flex-col items-center gap-[60px] relative flex-[0_0_auto]">
+            <div className="inline-flex items-end gap-[672px] relative flex-[0_0_auto]">
+              <div className="inline-flex flex-col items-start gap-[20px] relative flex-[0_0_auto]">
+                <div className="inline-flex items-center gap-[16px] relative flex-[0_0_auto]">
+                  <CategoryRectangle className="!relative" />
+                  <div className="relative w-fit font-title-16px-semibold font-[number:var(--title-16px-semibold-font-weight)] text-secondary-2 text-[length:var(--title-16px-semibold-font-size)] tracking-[var(--title-16px-semibold-letter-spacing)] leading-[var(--title-16px-semibold-line-height)] whitespace-nowrap [font-style:var(--title-16px-semibold-font-style)]">
+                    Our Products
+                  </div>
+                </div>
+                <div className="relative w-fit font-heading-36px-semibold font-[number:var(--heading-36px-semibold-font-weight)] text-text-2 text-[length:var(--heading-36px-semibold-font-size)] tracking-[var(--heading-36px-semibold-letter-spacing)] leading-[var(--heading-36px-semibold-line-height)] whitespace-nowrap [font-style:var(--heading-36px-semibold-font-style)]">
+                  Explore Our Products
+                </div>
+              </div>
+              <div className="inline-flex items-start gap-[8px] relative flex-[0_0_auto]">
+                <FillWithLeftArrow />
+                <FillWithRight />
+              </div>
+            </div>
+            <div className="inline-flex flex-col items-start gap-[60px] relative flex-[0_0_auto]">
+              <div className="inline-flex items-start gap-[30px] relative flex-[0_0_auto]">
+                <Cart className="!flex-[0_0_auto]" product="dog-food-no-discount" />
+                <Cart className="!flex-[0_0_auto]" product="dslr-camera-no-discount" />
+                <Cart className="!flex-[0_0_auto]" product="laptop-no-discount" />
+                <div className="inline-flex flex-col items-start gap-[16px] relative flex-[0_0_auto]">
+                  <div className="relative w-[270px] h-[250px] bg-secondary rounded-[4px] overflow-hidden">
+                    <div className="top-[12px] left-[224px] inline-flex flex-col items-start gap-[8px] absolute">
+                      <FillHeart />
+                      <FillEye />
+                    </div>
+                    <img
+                      className="absolute w-[172px] h-[159px] top-[46px] left-[49px]"
+                      alt="Curology"
+                      src="/img/curology-j7pkvqrtusm-unsplash-1-1.png"
+                    />
+                  </div>
+                  <div className="inline-flex flex-col items-start gap-[8px] relative flex-[0_0_auto]">
+                    <div className="relative w-fit mt-[-1.00px] font-title-16px-medium font-[number:var(--title-16px-medium-font-weight)] text-black text-[length:var(--title-16px-medium-font-size)] tracking-[var(--title-16px-medium-letter-spacing)] leading-[var(--title-16px-medium-line-height)] whitespace-nowrap [font-style:var(--title-16px-medium-font-style)]">
+                      Curology Product Set
+                    </div>
+                    <div className="inline-flex items-center gap-[8px] relative flex-[0_0_auto]">
+                      <div className="inline-flex items-start gap-[12px] relative flex-[0_0_auto]">
+                        <div className="relative w-fit mt-[-1.00px] font-title-16px-medium font-[number:var(--title-16px-medium-font-weight)] text-secondary-2 text-[length:var(--title-16px-medium-font-size)] tracking-[var(--title-16px-medium-letter-spacing)] leading-[var(--title-16px-medium-line-height)] whitespace-nowrap [font-style:var(--title-16px-medium-font-style)]">
+                          $500
+                        </div>
+                      </div>
+                      <div className="inline-flex items-start gap-[8px] relative flex-[0_0_auto]">
+                        <FiveStar7
+                          className="!relative !flex-[0_0_auto]"
+                          color="#FFAD33"
+                          fill="black"
+                          opacity1="0.25"
+                        />
+                        <div className="w-[40px] h-[20px] mt-[-1.00px] opacity-50 font-[number:var(--title-14px-semibold-font-weight)] text-text-2 text-[length:var(--title-14px-semibold-font-size)] leading-[var(--title-14px-semibold-line-height)] relative font-title-14px-semibold tracking-[var(--title-14px-semibold-letter-spacing)] whitespace-nowrap [font-style:var(--title-14px-semibold-font-style)]">
+                          (145)
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="inline-flex items-start gap-[30px] relative flex-[0_0_auto]">
+                <Cart
+                  className="!flex-[0_0_auto]"
+                  colourChnageEllipseClassName="!bg-secondary-2"
+                  product="kids-car-with-color-choosing"
+                />
+                <Cart
+                  className="!flex-[0_0_auto]"
+                  colourChnageEllipseClassName="!bg-secondary-2"
+                  product="soccer-boat-color-choosing"
+                />
+                <Cart
+                  className="!flex-[0_0_auto]"
+                  colourChnageEllipseClassName="!bg-secondary-2"
+                  product="gaming-control-color-choosing"
+                />
+                <Cart
+                  className="!flex-[0_0_auto]"
+                  colourChnageEllipseClassName="!bg-secondary-2"
+                  product="man-jacket-color-choosing"
+                />
+              </div>
+            </div>
+          </div>
+          <Button button="primary" className="!flex-[0_0_auto]" hover={false} text="View All Products" />
+        </div>
+        <div className="absolute w-[1170px] h-[768px] top-[4253px] left-[135px]">
+          <div className="inline-flex flex-col items-start gap-[60px] absolute top-0 left-0">
+            <div className="inline-flex flex-col items-start gap-[20px] relative flex-[0_0_auto]">
+              <div className="inline-flex items-center gap-[16px] relative flex-[0_0_auto]">
+                <CategoryRectangle className="!relative" />
+                <div className="relative w-fit font-title-16px-semibold font-[number:var(--title-16px-semibold-font-weight)] text-secondary-2 text-[length:var(--title-16px-semibold-font-size)] tracking-[var(--title-16px-semibold-letter-spacing)] leading-[var(--title-16px-semibold-line-height)] whitespace-nowrap [font-style:var(--title-16px-semibold-font-style)]">
+                  Featured
+                </div>
+              </div>
+              <div className="relative w-fit font-heading-36px-semibold font-[number:var(--heading-36px-semibold-font-weight)] text-text-2 text-[length:var(--heading-36px-semibold-font-size)] tracking-[var(--heading-36px-semibold-letter-spacing)] leading-[var(--heading-36px-semibold-line-height)] whitespace-nowrap [font-style:var(--heading-36px-semibold-font-style)]">
+                New Arrival
+              </div>
+            </div>
+            <div className="inline-flex items-start gap-[30px] relative flex-[0_0_auto]">
+              <div className="relative w-[570px] h-[600px] bg-button rounded-[4px] overflow-hidden">
+                <div className="relative w-[511px] h-[511px] top-[89px] left-[29px] bg-[url(/static/img/ps5-slim-goedkope-playstation-large-1.png)] bg-[100%_100%]">
+                  <div className="inline-flex flex-col items-start gap-[16px] relative top-[357px] left-[3px]">
+                    <div className="inline-flex flex-col items-start gap-[16px] relative flex-[0_0_auto]">
+                      <div className="relative w-fit mt-[-1.00px] font-heading-24px-semibold font-[number:var(--heading-24px-semibold-font-weight)] text-text text-[length:var(--heading-24px-semibold-font-size)] tracking-[var(--heading-24px-semibold-letter-spacing)] leading-[var(--heading-24px-semibold-line-height)] whitespace-nowrap [font-style:var(--heading-24px-semibold-font-style)]">
+                        PlayStation 5
+                      </div>
+                      <p className="w-[242px] font-[number:var(--title-14px-regular-font-weight)] text-text text-[length:var(--title-14px-regular-font-size)] leading-[var(--title-14px-regular-line-height)] relative font-title-14px-regular tracking-[var(--title-14px-regular-letter-spacing)] [font-style:var(--title-14px-regular-font-style)]">
+                        Black and White version of the PS5 coming out on sale.
+                      </p>
+                    </div>
+                    <div className="inline-flex flex-col items-start relative flex-[0_0_auto]">
+                      <div className="relative w-fit mt-[-1.00px] font-title-16px-medium font-[number:var(--title-16px-medium-font-weight)] text-white text-[length:var(--title-16px-medium-font-size)] tracking-[var(--title-16px-medium-letter-spacing)] leading-[var(--title-16px-medium-line-height)] whitespace-nowrap [font-style:var(--title-16px-medium-font-style)]">
+                        Shop Now
+                      </div>
+                      <div className="relative w-[81px] h-px mb-[-1.00px] opacity-50">
+                        <img
+                          className="absolute w-[81px] h-px -top-px left-0 object-cover"
+                          alt="Line"
+                          src="/img/line-1-2.svg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="inline-flex flex-col items-center gap-[32px] relative flex-[0_0_auto]">
+                <div className="relative w-[570px] h-[284px] bg-[#0d0d0d] rounded-[4px] overflow-hidden">
+                  <div className="relative w-[546px] h-[284px] left-[24px]">
+                    <img
+                      className="absolute w-[432px] h-[284px] top-0 left-[114px] object-cover"
+                      alt="Attractive woman"
+                      src="/img/attractive-woman-wearing-hat-posing-black-background-1.png"
+                    />
+                    <div className="inline-flex flex-col items-start gap-[16px] absolute top-[138px] left-0">
+                      <div className="inline-flex flex-col items-start gap-[16px] relative flex-[0_0_auto]">
+                        <div className="relative w-fit mt-[-1.00px] font-heading-24px-semibold font-[number:var(--heading-24px-semibold-font-weight)] text-text text-[length:var(--heading-24px-semibold-font-size)] tracking-[var(--heading-24px-semibold-letter-spacing)] leading-[var(--heading-24px-semibold-line-height)] whitespace-nowrap [font-style:var(--heading-24px-semibold-font-style)]">
+                          Women’s Collections
+                        </div>
+                        <p className="relative w-[255px] font-title-14px-regular font-[number:var(--title-14px-regular-font-weight)] text-text text-[length:var(--title-14px-regular-font-size)] tracking-[var(--title-14px-regular-letter-spacing)] leading-[var(--title-14px-regular-line-height)] [font-style:var(--title-14px-regular-font-style)]">
+                          Featured woman collections that give you another vibe.
+                        </p>
+                      </div>
+                      <div className="inline-flex flex-col items-start relative flex-[0_0_auto]">
+                        <div className="relative w-fit mt-[-1.00px] font-title-16px-medium font-[number:var(--title-16px-medium-font-weight)] text-white text-[length:var(--title-16px-medium-font-size)] tracking-[var(--title-16px-medium-letter-spacing)] leading-[var(--title-16px-medium-line-height)] whitespace-nowrap [font-style:var(--title-16px-medium-font-style)]">
+                          Shop Now
+                        </div>
+                        <div className="relative w-[81px] h-px mb-[-1.00px] opacity-50">
+                          <img
+                            className="absolute w-[81px] h-px -top-px left-0 object-cover"
+                            alt="Line"
+                            src="/img/line-1-2.svg"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="inline-flex items-center justify-center gap-[30px] relative flex-[0_0_auto]">
+                  <div className="relative w-[270px] h-[284px] bg-text-2 rounded-[4px] overflow-hidden">
+                    <div className="relative h-[284px] bg-[url(/static/img/ellipse-24-1.svg)] bg-[100%_100%]">
+                      <div className="absolute w-[210px] h-[222px] top-[31px] left-[30px]">
+                        <img
+                          className="absolute w-[190px] h-[221px] top-0 left-[10px]"
+                          alt="Element amazon"
+                          src="/img/69-694768-amazon-echo-png-clipart-transparent-amazon-echo-png-1.png"
+                        />
+                      </div>
+                      <div className="inline-flex flex-col items-start gap-[8px] absolute top-[175px] left-[24px]">
+                        <div className="inline-flex flex-col items-start gap-[8px] relative flex-[0_0_auto]">
+                          <div className="relative w-fit mt-[-1.00px] font-heading-24px-semibold font-[number:var(--heading-24px-semibold-font-weight)] text-text text-[length:var(--heading-24px-semibold-font-size)] tracking-[var(--heading-24px-semibold-letter-spacing)] leading-[var(--heading-24px-semibold-line-height)] whitespace-nowrap [font-style:var(--heading-24px-semibold-font-style)]">
+                            Speakers
+                          </div>
+                          <div className="relative w-[191px] font-title-14px-regular font-[number:var(--title-14px-regular-font-weight)] text-text text-[length:var(--title-14px-regular-font-size)] tracking-[var(--title-14px-regular-letter-spacing)] leading-[var(--title-14px-regular-line-height)] [font-style:var(--title-14px-regular-font-style)]">
+                            Amazon wireless speakers
+                          </div>
+                        </div>
+                        <div className="inline-flex flex-col items-start relative flex-[0_0_auto]">
+                          <div className="relative w-fit mt-[-1.00px] font-title-16px-medium font-[number:var(--title-16px-medium-font-weight)] text-white text-[length:var(--title-16px-medium-font-size)] tracking-[var(--title-16px-medium-letter-spacing)] leading-[var(--title-16px-medium-line-height)] whitespace-nowrap [font-style:var(--title-16px-medium-font-style)]">
+                            Shop Now
+                          </div>
+                          <div className="relative w-[81px] h-px mb-[-1.00px] opacity-50">
+                            <img
+                              className="absolute w-[81px] h-px -top-px left-0 object-cover"
+                              alt="Line"
+                              src="/img/line-1-2.svg"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="relative w-[270px] h-[284px] bg-button rounded-[4px] overflow-hidden">
+                    <div className="h-[284px] bg-[url(/static/img/ellipse-24.svg)] bg-[100%_100%]">
+                      <div className="relative w-[210px] h-[222px] top-[30px] left-[30px]">
+                        <img
+                          className="absolute w-[201px] h-[203px] top-[8px] left-[4px]"
+                          alt="Element"
+                          src="/img/65-2e-8-2cd-7-0aa-652-2dd-78510-9a-45590-4c.png"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="inline-flex flex-col items-start gap-[8px] absolute top-[619px] left-[924px]">
+            <div className="inline-flex flex-col items-start gap-[8px] relative flex-[0_0_auto]">
+              <div className="relative w-fit mt-[-1.00px] font-heading-24px-semibold font-[number:var(--heading-24px-semibold-font-weight)] text-text text-[length:var(--heading-24px-semibold-font-size)] tracking-[var(--heading-24px-semibold-letter-spacing)] leading-[var(--heading-24px-semibold-line-height)] whitespace-nowrap [font-style:var(--heading-24px-semibold-font-style)]">
+                Perfume
+              </div>
+              <div className="relative w-[191px] font-title-14px-regular font-[number:var(--title-14px-regular-font-weight)] text-text text-[length:var(--title-14px-regular-font-size)] tracking-[var(--title-14px-regular-letter-spacing)] leading-[var(--title-14px-regular-line-height)] [font-style:var(--title-14px-regular-font-style)]">
+                GUCCI INTENSE OUD EDP
+              </div>
+            </div>
+            <div className="inline-flex flex-col items-start relative flex-[0_0_auto]">
+              <div className="relative w-fit mt-[-1.00px] font-title-16px-medium font-[number:var(--title-16px-medium-font-weight)] text-white text-[length:var(--title-16px-medium-font-size)] tracking-[var(--title-16px-medium-letter-spacing)] leading-[var(--title-16px-medium-line-height)] whitespace-nowrap [font-style:var(--title-16px-medium-font-style)]">
+                Shop Now
+              </div>
+              <div className="relative w-[81px] h-px mb-[-1.00px] opacity-50">
+                <img
+                  className="absolute w-[81px] h-px -top-px left-0 object-cover"
+                  alt="Line"
+                  src="/img/line-1-2.svg"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <FullServices
+          className="!absolute !left-[249px] !top-[5161px]"
+          servicesCustomerIcon={
+            <IconCustomerService1 className="!absolute !w-[40px] !h-[40px] !top-[20px] !left-[20px]" color="white" />
+          }
+          visible={false}
+        />
+        <Footer
+          className="!absolute !left-0 !top-[5462px]"
+          icon={<Googleplay className="!relative !w-[110px] !h-[40px]" />}
+        />
+        <TopHeader className="!absolute !left-0 !top-0" />
+        <HeaderWrapper
+          className="!absolute !left-[135px] !top-[88px]"
+          frameClassName="!gap-[190px]"
+          visible={false}
+          withBuyCart="off"
+          withBuyCartOnClassName="!h-[32px] bg-[url(/static/img/cart-1.svg)] !relative !w-[32px]"
+        />
+        <FillWithUpArrow className="!absolute !left-[1305px] !top-[5384px]" />
+      </div>
+    </div>
+  );
+};

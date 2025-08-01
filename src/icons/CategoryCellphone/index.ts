@@ -1,0 +1,1 @@
+export { CategoryCellphone } from "./CategoryCellphone";
